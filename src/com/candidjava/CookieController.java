@@ -16,6 +16,7 @@ public class CookieController extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
+		System.out.println("welcome");
 		String un=request.getParameter("uname");
 		String pw=request.getParameter("pass");	
 		
